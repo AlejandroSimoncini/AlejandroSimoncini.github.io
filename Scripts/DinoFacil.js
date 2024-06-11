@@ -88,7 +88,11 @@ function checkScreenSize() {
     const jumpButton = document.getElementById('jumpButton');
     if (Width < 500) {
         jumpButton.style.display = 'block';
-        
+function esconderBoton(evento)
+{
+    var esconder = document.getElementById('bajoTablero');
+    esconder.style.display = 'none';
+}
     } else {
         jumpButton.style.display = 'none';
     }
