@@ -49,10 +49,6 @@ const dificultad=1;
 
 window.onload = function() //inicializa el board
 {
-    if(Width < 500)
-    {
-        esconderBoton();
-    }
     board = document.getElementById("board"); //busca el elemento board en el html
     board.height=boardHeight;
     board.width=boardWidth;
