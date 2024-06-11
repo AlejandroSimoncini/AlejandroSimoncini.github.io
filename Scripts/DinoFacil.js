@@ -86,13 +86,10 @@ window.onload = function() //inicializa el board
 
 function checkScreenSize() {
     const jumpButton = document.getElementById('jumpButton');
+    var esconder = document.getElementById('bajoTablero');
     if (Width < 500) {
         jumpButton.style.display = 'block';
-function esconderBoton(evento)
-{
-    var esconder = document.getElementById('bajoTablero');
-    esconder.style.display = 'none';
-}
+        esconder.style.display = 'none';
     } else {
         jumpButton.style.display = 'none';
     }
