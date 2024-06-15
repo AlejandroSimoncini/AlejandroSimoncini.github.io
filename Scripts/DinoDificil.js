@@ -61,7 +61,6 @@ window.onload = function() //inicializa el board
     
     requestAnimationFrame(actualizar);
     setInterval(crearCactus, 1000); //llama a la funcion crear cactus cada 1000 milisegundos = 1 segundo
-    
     document.addEventListener("keydown", saltar);
     checkScreenSize();
     window.addEventListener('resize', checkScreenSize);
@@ -74,12 +73,6 @@ function checkScreenSize() {
         esconderBoton();
     } else {
         jumpButton.style.display = 'none';
-    }
-}
-
-function jump() {
-    if (dino.y === dinoY) {
-        velocidadSalto = -20;
     }
 }
 
