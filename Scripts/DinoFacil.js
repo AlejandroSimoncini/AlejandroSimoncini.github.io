@@ -263,6 +263,11 @@ function colision(din,cac)
 }
 
 function obtenerScore()
+/*
+* @method obtener el score
+* @param {number} finalscore - puntaje al momento de perder
+* @return number 
+*/
 {
     return finalScore;
 }
